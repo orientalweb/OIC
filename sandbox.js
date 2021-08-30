@@ -28,6 +28,6 @@ function CalcPrem( ) {
     var premium = isum + taxc + taxs + duty;
     console.log(premium);
     // alert(premium);
-   document.getElementById('premium').innerHTML = Math.ceil(premium) * term ;
+   document.getElementById('premium').innerHTML = (Math.ceil(premium) * term ) + 700;
 
 }
